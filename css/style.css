@@ -1,8 +1,7 @@
 
 .gradient { 
-    background-image: linear-gradient(to right, #5a00ed, #0088ff, #00bcff, #00e4ab, #50ff00); 
+    background-image: linear-gradient(to left bottom, #d11818, #eb0043, #fb0072, #fd00a8, #eb12e1);
     height: 100%;
-    background-image: linear-gradient(to right, #5a00ed, #0088ff, #00bcff, #00e4ab, #50ff00); 
     background-size: cover; 
 } 
 
@@ -10,9 +9,14 @@
     padding-top: 15px; 
     padding-left: 20px; 
     padding-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .alltext {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+}
+
+hr {
+    border-width: 5px;
+    margin-right: 1em;
 }
