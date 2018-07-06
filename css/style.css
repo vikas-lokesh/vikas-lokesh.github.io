@@ -1,8 +1,18 @@
-h1 {
-    background-image: linear-gradient(to right, #5a00ed, #0088ff, #00bcff, #00e4ab, #50ff00);
+
+.gradient { 
+    background-image: linear-gradient(to right, #5a00ed, #0088ff, #00bcff, #00e4ab, #50ff00); 
+    height: 100%;
+    background-image: linear-gradient(to right, #5a00ed, #0088ff, #00bcff, #00e4ab, #50ff00); 
+    background-size: cover; 
+} 
+
+.paddedheadings { 
+    padding-top: 15px; 
+    padding-left: 20px; 
+    padding-bottom: 15px;
 }
 
-#paddedheadings {
-    padding-top: 5px;
-    padding-left: 10px;
+.alltext {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
