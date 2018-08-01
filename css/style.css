@@ -1,0 +1,139 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Lora", serif;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.navigation {
+    padding-bottom: 2em;
+}
+
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 2.5em;
+    overflow: auto;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+header, footer {
+    background-color: #ef6f6c;
+}
+
+
+header h1 {
+    color: #191b4c;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.contact a {
+    margin: 20px;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+header {
+    text-align: center;
+}
+
+
+header p {
+    padding-bottom: 2.5em;
+    margin-bottom: 0;
+}
+
+.programming {
+    background-color: #68cef1;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+    margin: 0 auto;
+}
+
+.othertalents {
+    background-color: #a0eec0;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+    margin: 0 auto;
+}
+
+a {
+    color: #fcdcd7;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+footer a {
+    padding-right: 1em;
+    padding-left: 1em;
+}
