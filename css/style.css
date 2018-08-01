@@ -12,6 +12,7 @@ ul {
 li {
     float: left;
     border-right: 1px solid white;
+    border-left: 1px solid white;
 }
 
 li a {
@@ -83,6 +84,8 @@ header h1 {
     color: #191b4c;
     margin: 0 auto;
     padding-top: 1em;
+    font-family: "Abril Fatface", cursive;
+    font-size: 2.5em;
 }
 
 
@@ -116,6 +119,8 @@ header p {
     padding-top: 1em;
     padding-bottom: 2.5em;
     margin: 0 auto;
+    background-color: #292f36;
+    color: #d64a63;
 }
 
 .othertalents {
@@ -136,4 +141,18 @@ body {
 footer a {
     padding-right: 1em;
     padding-left: 1em;
+}
+
+
+h2 {
+    padding-top: 1em;
+    
+}
+
+p, footer a {
+    padding-bottom: 2em;
+}
+
+p {
+    margin: 1em;
 }
