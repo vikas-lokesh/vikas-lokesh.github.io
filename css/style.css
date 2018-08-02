@@ -1,3 +1,7 @@
+/*-----------------------------------------------------
+---------------Navigation------------------------------
+-----------------------------------------------------*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -32,10 +36,15 @@ li a:hover {
     padding-bottom: 2em;
 }
 
+/*---------------------------------------------------------
+----------------------Global-------------------------------
+---------------------------------------------------------*/
 
 body {
     font-family: "Noto Sans", sans-serif;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
+
 }
 
 h1,
@@ -51,6 +60,7 @@ h1 {
 h2 {
     font-size: 2.5em;
     margin-top: 0;
+    padding-top: 1em;
 }
 
 a:hover {
@@ -74,11 +84,20 @@ html {
     box-sizing: inherit;
 }
 
+p {
+    margin: 1em;
+    padding-bottom: 2em;
+}
+
+/*------------------------------------------------
+------------------Header and Footer---------------
+------------------------------------------------*/
 
 header, footer {
     background-color: #ef6f6c;
 }
 
+/* header */
 
 header h1 {
     color: #191b4c;
@@ -86,22 +105,6 @@ header h1 {
     font-family: "Abril Fatface", cursive;
     font-size: 2.5em;
     padding-top: 2em;
-}
-
-
-footer {
-    text-align: center;
-    padding-bottom: 3em;
-}
-
-.contact a {
-    margin: 20px;
-}
-
-.profile-img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
 }
 
 header {
@@ -112,6 +115,26 @@ header {
 header p {
     padding-bottom: 4em;
     margin-bottom: 0;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+/*--------------------------------------------
+--------------Specific Sections---------------
+---------------------------------------------*/
+
+.contact a {
+    margin: 20px;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 
 .programming {
@@ -132,29 +155,11 @@ header p {
 }
 
 
-
-body {
-    font-family: "Open Sans", sans-serif;
-}
-
 footer a {
     padding-right: 1em;
     padding-left: 1em;
     color: #eae0d5;
     font-family: "Inconsolata", monospace;
-    font-size: 1.3em;
-}
-
-
-h2 {
-    padding-top: 1em;
-    
-}
-
-p, footer a {
+    font-size: 1.2em;
     padding-bottom: 2em;
-}
-
-p {
-    margin: 1em;
 }
